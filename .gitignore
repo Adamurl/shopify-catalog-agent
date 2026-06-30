@@ -1,8 +1,12 @@
 .env
 .venv/
+.DS_Store
+**/.DS_Store
 __pycache__/
 .pytest_cache/
 *.py[cod]
+
+catalog-agent/
 
 data/raw/*
 data/processed/*
