@@ -1,0 +1,113 @@
+{
+  "colors": [
+    "black",
+    "brown",
+    "red",
+    "blue",
+    "green",
+    "white",
+    "gold",
+    "silver",
+    "yellow",
+    "orange",
+    "purple",
+    "pink",
+    "gray",
+    "grey",
+    "tan",
+    "turquoise"
+  ],
+  "materials": [
+    "leather",
+    "wood",
+    "cotton",
+    "obsidian",
+    "shell",
+    "abalone",
+    "feather",
+    "wool",
+    "linen",
+    "denim",
+    "polyester",
+    "ceramic",
+    "clay",
+    "silver",
+    "gold"
+  ],
+  "audience_terms": [
+    "men",
+    "women",
+    "ladies",
+    "kids",
+    "youth",
+    "baby",
+    "adult",
+    "unisex"
+  ],
+  "gender_terms": {
+    "men": ["men", "mens", "men's"],
+    "women": ["women", "womens", "women's", "ladies", "lady"]
+  },
+  "age_group_terms": {
+    "baby": ["baby", "infant", "toddler"],
+    "kids": ["kids", "kid", "children", "child"],
+    "youth": ["youth", "teen"],
+    "adult": ["adult", "adults"]
+  },
+  "cultural_terms": [
+    "Aztec",
+    "Mexica",
+    "Danza Azteca",
+    "ceremonial",
+    "traditional",
+    "Mayan",
+    "Otomi",
+    "Huichol"
+  ],
+  "use_case_keywords": {
+    "Danza Azteca": ["danza azteca", "aztec dance"],
+    "ceremonial": ["ceremonial", "ceremony"],
+    "traditional wear": ["traditional", "folklorico"],
+    "everyday wear": ["everyday", "casual"]
+  },
+  "accessory_keywords": [
+    "spare",
+    "replacement",
+    "blade",
+    "strap",
+    "accessory",
+    "cover",
+    "case",
+    "insert",
+    "refill"
+  ],
+  "variant_keywords": [
+    "variant",
+    "option",
+    "size",
+    "color",
+    "style"
+  ],
+  "family_keywords": {
+    "Macuahuitl": ["macuahuitl", "aztec club"],
+    "Tecpatl": ["tecpatl", "knife"],
+    "Huaraches": ["huarache", "huaraches", "sandals"],
+    "Earrings": ["earrings", "earring"],
+    "Hoodies": ["hoodie", "zip-up hoodie", "zip up hoodie"],
+    "Tank Tops": ["tank top", "tank"],
+    "Shirts": ["shirt", "t-shirt", "tee"],
+    "Jewelry": ["jewelry", "necklace", "bracelet", "ring", "earrings"]
+  },
+  "subgroup_keywords": {
+    "Spare Blades": ["spare blade", "spare blades", "replacement blade"],
+    "Feather Earrings": ["feather earring", "feather earrings"],
+    "Tank Tops": ["tank top", "tank"],
+    "Zip-Up Hoodies": ["zip-up hoodie", "zip up hoodie", "zip hoodie"],
+    "Aztec Dance Huaraches": ["aztec dance huarache", "danza azteca huarache"]
+  },
+  "size_patterns": [
+    "\\b(?P<size>\\d+(?:\\.\\d+)?)\\s*(?:\\\"|”|inch|inches|in\\.)(?=$|\\s)",
+    "\\b(?P<size>\\d+(?:\\.\\d+)?)-inch\\b"
+  ],
+  "confidence_threshold": 0.65
+}
