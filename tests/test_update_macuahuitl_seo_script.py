@@ -1,4 +1,4 @@
-from scripts.update_macuahuitl_seo import (
+from proof_of_concept.macuahuitl.update_macuahuitl_seo import (
     SeoReportRow,
     build_image_alt_text,
     build_product_handle,

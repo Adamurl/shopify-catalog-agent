@@ -8,7 +8,7 @@ from typing import Any
 import requests
 
 LOGGER = logging.getLogger(__name__)
-DEFAULT_API_VERSION = "2026-04"
+DEFAULT_API_VERSION = "2025-10"
 REQUEST_TIMEOUT_SECONDS = 30
 
 

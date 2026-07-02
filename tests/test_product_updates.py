@@ -1,7 +1,7 @@
 import pytest
 
 from src.shopify.client import ShopifyApiError
-from src.shopify.product_updates import (
+from proof_of_concept.macuahuitl.product_updates import (
     ProductMediaAltUpdate,
     ProductSeoUpdate,
     append_missing_tags,

@@ -8,10 +8,10 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from src.shopify.client import ShopifyConfig, ShopifyGraphQLClient
-from src.shopify.product_updates import (
+from proof_of_concept.macuahuitl.product_updates import (
     ProductMediaAltUpdate,
     ProductSeoUpdate,
     append_missing_tags,

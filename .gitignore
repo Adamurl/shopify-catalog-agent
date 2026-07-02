@@ -11,6 +11,16 @@ catalog-agent/
 data/raw/*
 data/processed/*
 data/reports/*
+data/snapshots/*
+data/classified/*
+data/rules/proposed/*
+data/rules/approved/*
+data/previews/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/reports/.gitkeep
+!data/snapshots/.gitkeep
+!data/classified/.gitkeep
+!data/rules/proposed/.gitkeep
+!data/rules/approved/.gitkeep
+!data/previews/.gitkeep
